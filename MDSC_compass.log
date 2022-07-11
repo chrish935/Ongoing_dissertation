@@ -1,0 +1,67 @@
+Compass version: 0.9.9.3
+Git commit: Not in Git repo
+Python Version:
+3.8.2 (default, Jun  8 2021, 11:59:35) 
+[Clang 12.0.5 (clang-1205.0.22.11)]
+Python prefix: /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8
+Numpy version: 1.21.0
+Pandas version: 1.2.5
+Supplied Arguments: 
+   data: ['/Volumes/External/Research/PhD/Kielian_Lab/Data/Compass_metabolism/Integrated_ortho/MDSC/expression.tsv']
+   data_mtx: None
+   model: RECON2_mat
+   species: mus_musculus
+   media: None
+   output_dir: /Volumes/External/Research/PhD/Kielian_Lab/Data/Compass_metabolism/Integrated_ortho/MDSC
+   temp_dir: /Volumes/External/Research/PhD/Kielian_Lab/Data/Compass_metabolism/Integrated_ortho/MDSC/tmp
+   torque_queue: None
+   num_processes: 10
+   lambda: 0
+   single_sample: None
+   transposed: False
+   sample_range: None
+   reaction_range: None
+   metabolite_range: None
+   generate_cache: False
+   test_mode: False
+   num_threads: 1
+   and_function: mean
+   select_reactions: None
+   select_subsystems: None
+   glucose: None
+   collect: False
+   config_file: None
+   num_neighbors: 30
+   symmetric_kernel: False
+   input_weights: None
+   penalty_diffusion: knn
+   no_reactions: False
+   calc_metabolites: False
+   precache: False
+   input_knn: None
+   output_knn: None
+   latent_space: None
+   only_penalties: None
+   example_inputs: None
+   microcluster_size: 40
+   microcluster_file: /Volumes/External/Research/PhD/Kielian_Lab/Data/Compass_metabolism/Integrated_ortho/MDSC/micropools.tsv
+   microcluster_data_file: /Volumes/External/Research/PhD/Kielian_Lab/Data/Compass_metabolism/Integrated_ortho/MDSC/micropooled_data.tsv
+   detailed_perf: False
+   penalties_file: 
+   lpmethod: 4
+   advance: 2
+   save_argmaxes: False
+   list_genes: None
+   list_reactions: None
+
+COMPASS Started: 2021-07-07 16:00:56.390724
+Partitioning dataset into microclusters of size 40
+Evaluating Reaction Penalties...
+Cache for model and media already built
+Processing 100 samples using 4 processes
+Progress bar will update once the first sample is finished
+Collecting results from: /Volumes/External/Research/PhD/Kielian_Lab/Data/Compass_metabolism/Integrated_ortho/MDSC/tmp
+Writing output to: /Volumes/External/Research/PhD/Kielian_Lab/Data/Compass_metabolism/Integrated_ortho/MDSC
+COMPASS Completed Successfully
+
+Elapsed Time: 13:53:32.701641
